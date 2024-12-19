@@ -21,11 +21,11 @@ if ('serviceWorker' in navigator) {
     navigator.serviceWorker.ready.then(registration => {
       setTimeout(() => {
         registration.showNotification('Привет!', {
-          body: 'Это пуш-уведомление через минуту!',
+          body: 'Это пуш-уведомление через 3 секунды!',
           icon: 'icon.png',
           vibrate: [200, 100, 200]
         });
-      }, 60000); // 1 минута = 60000 мс
+      }, 3000);
     });
   }
   

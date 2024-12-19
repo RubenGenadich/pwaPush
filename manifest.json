@@ -7,7 +7,7 @@
     "description": "Пример PWA с пуш-уведомлением",
     "icons": [
       {
-        "src": "icon.png",
+        "src": "icon2.png",
         "sizes": "192x192",
         "type": "image/png"
       }
